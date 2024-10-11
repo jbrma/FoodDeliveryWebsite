@@ -1,0 +1,407 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #accae9;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  h1, h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  p {
+    margin-bottom: 15px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #accae9;
+    color: #ffffff;
+  }
+  
+  .logo img {
+    width: 90px;
+    height: auto;
+  }
+  
+  a,
+  a:visited {
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  nav {
+    padding: 10px;
+    width: 170px;
+    height: 400px;
+    background-color: #accae9;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  nav a,
+  nav a:visited {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  nav a:hover {
+    color: rgb(10, 3, 28);
+    text-decoration: underline;
+  }
+  
+  .icons a {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .icons img {
+    width: 50px;
+    height: auto;
+  }
+  
+  main {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #accae9;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  th,
+  td,
+  table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+  }
+  
+  form {
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+  }
+
+  #formDarLike{
+    margin: 0 auto;
+    background-color: transparent;
+    border-radius: 16px;
+  }
+
+  #formAddCafeteria{
+    margin: 0 auto;
+    background-color: transparent;
+    border-radius: 16px;
+  }
+
+  #formVerProducto{
+    margin: 0 auto;
+    background-color: transparent !important;
+    border-radius: 16px;
+  }
+  fieldset {
+    padding: 70px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  legend {
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  
+  .enlace {
+    background-color: white;
+    border: 1px solid black;
+  }
+  
+  label {
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    color: #333;
+  }
+
+  button{
+
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    color: #333;
+  }
+  
+  input[type="text"],
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: bold;
+  }
+  
+  ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ol li {
+    display: flex;
+  }
+
+/*Imagenes*/
+
+.cafeterias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;  
+  }
+  
+.cafeteria {
+    margin-bottom: 80px;
+    background-color: transparent;
+  }
+  
+.cafeteria img {
+  max-width: 250px; 
+  max-height: 250px
+}
+
+
+
+
+/* JORGE */
+
+
+/* Vista de Crear Grupos */
+
+.group-form-creaG {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.group-form-creaG form {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  box-sizing: border-box;
+}
+
+.group-form-creaG label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.group-form-creaG input[type="text"],
+.group-form-creaG input[type="number"],
+.group-form-creaG input[type="file"],
+.group-form-creaG select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* asegura que el padding y los bordes se incluyan en el valor de width*/
+  font-size: 16px;
+}
+
+.group-form-creaG button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #6c9ed4;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.group-form-creaG button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.group-form-creaG .error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* Vista de Ver Grupos */
+
+.group-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* espacio entre los grupos */
+  padding: 20px; /* espacio de relleno */
+  justify-content: center;
+  background-color: transparent;
+}
+
+.group-item {
+  display: flex;
+  flex-direction: column;
+  background: #d1daea;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* oculta el contenido que se desborde  */
+  max-width: 300px; /* tamaño fijo para cada tarjeta */
+  width: 100%;
+  margin: 10px;
+  transition: transform 0.2s;
+}
+
+.group-item:hover {
+  transform: translateY(-5px); /* hace un pequeño movimiento */
+}
+
+.group-image img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 10px;
+}
+
+.group-details {
+  padding: 20px;
+  text-align: center;
+}
+
+.group-details h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.group-details p {
+  margin: 5px 0;
+}
+
+.group-details ul { /* lista */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.group-details li { /* elementos de la lista */
+  background: #e9e9e9;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+}
+
+
+
+/* Vista de Mi Grupo */
+
+.group-container-miG {
+  display: flex;
+  align-items: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.group-image-miG {
+  flex: 1;
+  max-width: 50%;
+}
+
+.group-image-miG img {
+  max-width: 100%;
+  height: 480px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+.group-form-miG {
+  flex: 1;
+  max-width: 50%;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.group-form-miG label {
+  display: block; /* ocupa todo el ancho posible */
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.group-form-miG input[type="text"],
+.group-form-miG input[type="number"],
+.group-form-miG input[type="file"],
+.group-form-miG select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.group-form-miG button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #2282e3;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.group-form-miG button[type="submit"]:hover { 
+  background-color: #0056b3;
+}
+
+.group-form-miG .error {
+  color: red;
+  font-size: 14px;
+}
+
